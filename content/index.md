@@ -1,6 +1,9 @@
 ---
-title: Welcome to Quartz
+title: سامان زندیانی، باغ دیجیتالی من
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+سام و علیکم
+
+خب مطلب اول و این ها
+✅سیسیسیسیسسی
+![[Pasted image 20241113170443.png]]
