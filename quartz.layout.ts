@@ -10,13 +10,13 @@ export const sharedPageComponents: SharedLayout = {
       provider: 'giscus',
       options: {
         // from data-repo
-        repo: 'eledah/quartz_blog',
+        repo: 'samanzandiani/digitalgarden',
         // from data-repo-id
-        repoId: 'R_kgDOLxbW_g',
+        repoId: 'R_kgDONOwTKw',
         // from data-category
         category: 'Announcements',
         // from data-category-id
-        categoryId: 'DIC_kwDOLxbW_s4ChRbJ',
+        categoryId: 'DIC_kwDONOwTK84CkPDt',
       }
     }),
   ],
