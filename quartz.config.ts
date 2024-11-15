@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "fa-IR",
     baseUrl: "samanz.ir",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "Templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
