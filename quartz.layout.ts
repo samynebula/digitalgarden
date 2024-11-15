@@ -6,21 +6,20 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    <script src="https://giscus.app/client.js"
-    data-repo="samanzandiani/digitalgarden"
-    data-repo-id="R_kgDONOwTKw"
-    data-category="Announcements"
-    data-category-id="DIC_kwDONOwTK84CkPDt"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="preferred_color_scheme"
-    data-lang="fa"
-    crossorigin="anonymous"
-    async>
-</script>],
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'samanzandiani/digitalgarden',
+        // from data-repo-id
+        repoId: 'R_kgDONOwTKw',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDONOwTK84CkPDt',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
