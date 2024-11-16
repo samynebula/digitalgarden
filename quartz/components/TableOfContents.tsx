@@ -24,16 +24,13 @@ const TableOfContents: QuartzComponent = ({
     return null
   }
 
+  if (fileData.slug === "index") {
+    return <></>
+  }
+
   return (
     <div class={classNames(displayClass, "toc")}>
-      <button
-        type="button"
-        id="toc"
-        class={fileData.collapseToc ? "collapsed" : ""}
-        aria-controls="toc-content"
-        aria-expanded={!fileData.collapseToc}
-      >
-        <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
+      <button type="button" id="toc" class={fileData.collapseToc ? "collapsed" : ""}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -48,8 +45,9 @@ const TableOfContents: QuartzComponent = ({
         >
           <polyline points="6 9 12 15 18 9"></polyline>
         </svg>
+        <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
       </button>
-      <div id="toc-content" class={fileData.collapseToc ? "collapsed" : ""}>
+      <div id="toc-content">
         <ul class="overflow">
           {fileData.toc.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>

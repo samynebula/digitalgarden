@@ -18,9 +18,6 @@ import vi from "./locales/vi-VN"
 import pt from "./locales/pt-BR"
 import hu from "./locales/hu-HU"
 import fa from "./locales/fa-IR"
-import pl from "./locales/pl-PL"
-import cs from "./locales/cs-CZ"
-import tr from "./locales/tr-TR"
 
 export const TRANSLATIONS = {
   "en-US": enUs,
@@ -63,9 +60,6 @@ export const TRANSLATIONS = {
   "pt-BR": pt,
   "hu-HU": hu,
   "fa-IR": fa,
-  "pl-PL": pl,
-  "cs-CZ": cs,
-  "tr-TR": tr,
 } as const
 
 export const defaultTranslation = "en-US"
