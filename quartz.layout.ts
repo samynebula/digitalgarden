@@ -10,20 +10,20 @@ export const sharedPageComponents: SharedLayout = {
       provider: 'giscus',
       options: {
         // from data-repo
-        repo: 'samanzandiani/digitalgarden',
+        repo: 'eledah/quartz_blog',
         // from data-repo-id
-        repoId: 'R_kgDONOwTKw',
+        repoId: 'R_kgDOLxbW_g',
         // from data-category
         category: 'Announcements',
         // from data-category-id
-        categoryId: 'DIC_kwDONOwTK84CkPDt',
+        categoryId: 'DIC_kwDOLxbW_s4ChRbJ',
       }
     }),
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      // "آپارات": "https://www.aparat.com/Crystalline",
+      // "گیت‌هاب": "https://github.com/eledah",
     },
   }),
 }
@@ -37,17 +37,26 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    // Component.DesktopOnly(Component.Sidenotes()),
+    Component.DesktopOnly(Component.Graph()),
+    Component.DesktopOnly(Component.Backlinks()),
+
+    Component.MobileOnly(Component.PageTitle()),
+    Component.MobileOnly(Component.Darkmode()),
+    // Component.MobileOnly(Component.Search()),
   ],
   right: [
-    Component.Graph(),
+    Component.DesktopOnly(Component.PageTitle()),
+    Component.DesktopOnly(Component.Darkmode()),
+    Component.DesktopOnly(Component.Search()),
+    // Component.DesktopOnly(Component.Explorer({
+    //   filterFn: (node) => {
+    //     // exclude files with the tag "explorerexclude"
+    //     return node.file?.frontmatter?.tags?.includes("explorerexclude") !== true
+    //   },
+    // })),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-    Component.sidebar(),
+    Component.MobileOnly(Component.Backlinks()),
   ],
 }
 
@@ -55,11 +64,18 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.MobileOnly(Component.PageTitle()),
+    Component.MobileOnly(Component.Darkmode()),
   ],
-  right: [],
+  right: [
+    Component.DesktopOnly(Component.PageTitle()),
+    Component.Search(),
+    Component.DesktopOnly(Component.Darkmode()),
+    Component.DesktopOnly(Component.Explorer({
+      filterFn: (node) => {
+        // exclude files with the tag "explorerexclude"
+        return node.file?.frontmatter?.tags?.includes("explorerexclude") !== true
+      },
+    })),
+  ],
 }
