@@ -41,7 +41,4 @@ tags:
 
 
 ---
-![[telegram.svg|20]][Telegram](https://t.me/samanzandiani)
-![[linkedin.svg|20]] [Linkedin](https://www.linkedin.com/in/samanzandiani/) 
-![[instagram 1.svg|20]][Instagram](https://www.instagram.com/your_username/)
-![[gmail 1.svg|20]] [Gmail](mailto:sam.zandiani@gmail.com)
+ [Telegram](https://t.me/samanzandiani) |  [Linkedin](https://www.linkedin.com/in/samanzandiani/)  | [Instagram](https://www.instagram.com/your_username/) | [Gmail](mailto:sam.zandiani@gmail.com)
