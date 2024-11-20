@@ -40,17 +40,17 @@ tags:
 
 > [!error]- شبکه‌های اجتماعی و حومه!
 > **صفحات من در شبکه‌های اجتماعی**
-> - :LiLinkedin: [لینکدین](https://www.linkedin.com/in/samanzandiani/)
-> - :LiInstagram: [اینستاگرام](<(https://www.instagram.com/saman.zandiani/?igsh=MXgxb2ZjMjBucWljNg%3D%3D>)
-> - :LiSend: [کانال تلگرام من](https://t.me/samanzandiani) فعلا بدون محتوا
-> - :LiYoutube: [یوتیوب](https://www.youtube.com/@samanzandiani)  فعلا بدون محتوا
+> - [لینکدین](https://www.linkedin.com/in/samanzandiani/)
+> - [اینستاگرام](<(https://www.instagram.com/saman.zandiani/?igsh=MXgxb2ZjMjBucWljNg%3D%3D>)
+> - [کانال تلگرام من](https://t.me/samanzandiani) فعلا بدون محتوا
+> - [یوتیوب](https://www.youtube.com/@samanzandiani)   فعلا بدون محتوا
 >   
 >**ارسال پیام به من**
-> - :LiSend: [تلگرام](https://t.me/zandiani)
-> - :LiMail: ایمیل Sam.zandiani@gmail.com
+> - [تلگرام](https://t.me/zandiani)
+> - ایمیل Sam.zandiani@gmail.com
 > 
 > **حومه!**
-> - :LiSend: پلی لیست موزیک من - فعلا بدون محتوا
+> - پلی لیست موزیک من - فعلا بدون محتوا
 
 
  
