@@ -36,8 +36,7 @@ tags:
 # آخرین نوشته‌ها
 
 
+--- 
+- [[شبکه‌های اجتماعی و کمی بیشتر]]
 
-
-
----
- [Telegram](https://t.me/samanzandiani) |  [Linkedin](https://www.linkedin.com/in/samanzandiani/)  | [Instagram](https://www.instagram.com/your_username/) | [Gmail](mailto:sam.zandiani@gmail.com)
+ 
