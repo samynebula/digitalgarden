@@ -38,19 +38,15 @@ tags:
 
 --- 
 
-> [!error]- شبکه‌های اجتماعی و حومه!
+> [!error]- شبکه‌های اجتماعی من
 > **صفحات من در شبکه‌های اجتماعی**
 > - [لینکدین](https://www.linkedin.com/in/samanzandiani/)
 > - [اینستاگرام](<(https://www.instagram.com/saman.zandiani/?igsh=MXgxb2ZjMjBucWljNg%3D%3D>)
-> - [کانال تلگرام من](https://t.me/samanzandiani) فعلا بدون محتوا
-> - [یوتیوب](https://www.youtube.com/@samanzandiani)   فعلا بدون محتوا
->   
+>
 >**ارسال پیام به من**
 > - [تلگرام](https://t.me/zandiani)
 > - ایمیل Sam.zandiani@gmail.com
 > 
-> **حومه!**
-> - پلی لیست موزیک من - فعلا بدون محتوا
 
 
  
