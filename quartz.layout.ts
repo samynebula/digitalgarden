@@ -41,6 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Backlinks()),
     Component.MobileOnly(Component.PageTitle()),
     Component.MobileOnly(Component.Darkmode()),
+    Component.RecentNotes(),
     ],
     right: [
     Component.DesktopOnly(Component.PageTitle()),
@@ -48,7 +49,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Darkmode()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.MobileOnly(Component.Backlinks()),
-    Component.RecentNotes(),
     ],
   }
    
